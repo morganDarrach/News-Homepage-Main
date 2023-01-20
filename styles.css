@@ -21,7 +21,7 @@
 /*Navigation*/
   
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1110px;
@@ -41,7 +41,7 @@ li {
 
 .nav-links a {
     text-decoration: none;
-    color: var(--verydarkblue);
+    color: var(--darkgrayishblue);
     font-weight: 400;
     font-size: 16px;
 }
@@ -63,6 +63,10 @@ li {
 }
 
 /*Main Content*/
+
+body {
+    background-color: var(--offwhite);
+}
 
 main {
     font-family: 'Inter', sans-serif;
@@ -97,7 +101,7 @@ main {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--verydarkblue);
+    color: var(--darkgrayishblue);
 }
 
 .description {
@@ -146,7 +150,6 @@ aside {
 
 aside h3 {
     padding-bottom: 10px;
-    color: var(--offwhite);
 }
 
 aside a {
@@ -166,7 +169,7 @@ aside p {
 }
 
 aside hr {
-    border-bottom: 1px solid var(--darkgrayishblue);
+    border-bottom: 1px solid var(--grayishblue);
     border-top: none;
     border-left: none;
     border-right: none;
@@ -226,7 +229,7 @@ aside hr {
 .contents p {
     font-size: 15px;
     line-height: 1.6;
-    color: var(--verydarkblue);
+    color: var(--darkgrayishblue);
 }
 
 .contents a {
@@ -309,7 +312,7 @@ aside hr {
         padding: 0 14px;
         height: 88px;
         margin: auto;
-        background-color: white;
+        background-color: var(--offwhite);
     }
 
     .container {
